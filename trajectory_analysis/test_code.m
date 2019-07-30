@@ -43,3 +43,7 @@ Ximp=run_magic(X,true);
 figure;
 i_plot_pseudotimeseries(Ximp,genelist,t,["IRF4","PRDM1","IRF8"]);
 title('Plasmablast:IRF4,PRDM1; Naive B:IRF8')
+
+
+figure;
+scatter3(s(:,1),s(:,2),s(:,3),10,'filled');
